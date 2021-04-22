@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherApp-외부 JSON 데이터 연동</title>
+    <link rel="stylesheet" href="./css/weather-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="user_select">
+        <h2 class="title">현재 날씨 정보</h2>
+        <div class="cities">
+            <button>Seoul</button>
+            <button>Busan</button>
+            <button>New york</button>
+            <button>London</button>
+            <button>Paris</button>
+            <button>Sydney</button>
+            <button>Vancouver</button>
+            <button>New delhi</button>
+        </div>
+        <div class="search">
+            <input type="search" name="search_box" id="search_box" autocomplete="off">
+            <button>검색</button>
+        </div>
+    </section>
+
+    <section id="weather">
+        <ul>
+            <!-- <li>
+                <div class="top">
+                    <div class="cur_icon"><i class="wi"></i></div>
+                    <div class="info">
+                        <p class="temp"><span>온도</span>&nbsp;℃</p>
+                        <h4>오늘 날씨</h4>
+                        <p><span class="city">도시명</span></p>
+                        <p><span class="nation">국가명</span></p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="wind">
+                        <i class="wi wi-strong-wind"></i>
+                        <p><span>0.00</span>&nbsp;m/s</p>
+                    </div>
+                    <div class="humidity">
+                        <i class="wi wi-humidity"></i>
+                        <p><span>00</span>&nbsp;%</p>
+                    </div>
+                    <div class="cloud">
+                        <i class="wi wi-cloud"></i>
+                        <p><span>00</span>&nbsp;%</p>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+    </section>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
