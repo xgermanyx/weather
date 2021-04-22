@@ -55,7 +55,7 @@ $(document).ready(function(){
 
         $("#weather ul li").each(function(index){  //index = 0, 1, 2, ....
             $.ajax({
-                url:"http://api.openweathermap.org/data/2.5/weather?q="+city[index]+"&appid="+myKey,
+                url:"https://api.openweathermap.org/data/2.5/weather?q="+city[index]+"&appid="+myKey,
                 dataType:"json",
                 success:function(data){
                     console.log(data);
